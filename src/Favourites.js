@@ -14,7 +14,7 @@ function Favourites (props) {
 
     return (
         <div className="favourite-container">  
-        <p className="favourite-header"><i className="fas fa-heart fav-ico"></i> My Favourites</p>
+            <p className="favourite-header"><i className="fas fa-heart fav-ico"></i> My Favourites</p>
             {thumbnails}
         </div>
     )
